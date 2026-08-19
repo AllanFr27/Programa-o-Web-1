@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cps{
+    width: 100%;
+    margin: 12px;
+}
+
+/* navBar */
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(179, 15, 15);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-left: 46px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+/* Page Main */
+.homeMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 145px;
+}
+
+.inf{
+    display: flex;
+    width: 100%;
+    height: 12em;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgb(20, 79, 89);
+}
+
+.inf ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.inf h2{
+    color: white;
+}
+
+.inf p{
+    color: white;
+}
+/* Footer  */
+
+/* div foot*/
+.foot{
+    display: flex;
+    height: 9em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(25, 86, 112);
+}
+
+.foot h5{
+    margin-left: 35px;
+    color:white;
+}
+
+.foot a{
+    color: rgb(12, 112, 121);
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    height: 12em;
+    margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+button{
+    margin: 15px;
+    font-size: large;
+    width: 12.9em;
+    height: 2.5em;
+    color: white;
+    background-color:rgb(24, 37, 102);
+    border: 1px solid rgb(24, 37, 102);
+    border-radius: 26px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.gov{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
